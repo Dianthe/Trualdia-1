@@ -1,0 +1,20 @@
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+#header {
+	height: 100px;
+	width: 100%;
+}
+
+#header_logo{
+	width: 150px;
+	height: 100px;
+}
+
+#logo {
+	width: 150px;
+	height: 100px;
+	float: left;
+}
