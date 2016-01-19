@@ -1,6 +1,7 @@
 
 
 #shrimp {
+display:none;
   width: 48%;
   height: 48%;
   margin: 40px auto;
@@ -18,6 +19,7 @@
 
 
 #bistro {
+  display:none;
   width: 48%;
   height: 48%;
   margin: 40px auto;
@@ -45,13 +47,67 @@
   text-decoration: none;
 }
 
-#pic1 {
-margin-left: 0em auto;
-margin-right: 0em auto;
+#Seperator {
+  width: 100%;
+  margin-left: 1em;
+  color: white;
+  clear: both;
 }
 
-#pic2 {
-margin-left: 0em;
-margin-right: 0em;
+#icon1 {
+  width: 33%;
+  height: 50%;
+  margin: 10em auto;
 }
+
+#icon2 {
+  width: 33%;
+  height: 50%;
+  margin: 10em auto;
+}
+
+#icon3 {
+  width: 33%;
+  height: 50%;
+  margin: 10em auto;
+}
+
+#div_icon-left {
+	height:10%;
+	width:33.33%;
+	float: left;
+}
+
+#div_icon-middle {
+	height:10%;
+	width:33.33%;
+	float: left;
+}
+
+#div_icon-right {
+	height:10%;
+	width:33.33%;
+	float: left;
+}
+
+#wrapper {
+	height:29%;
+	width:100%;
+}
+
+.pushleft {
+	margin-left: 100px;
+	margin-top: -50px;
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
 
