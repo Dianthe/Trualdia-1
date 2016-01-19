@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles/index_dianthe.css">
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="JQuery/index_dianthe.js"></script>
-     <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
-  </head>
+	<head>
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="JQuery/Index.js"></script>
+		<link rel="stylesheet" type="text/css" href="Styles/index.css">
+	</head>
+
 <body>
-  <!--slider-->
-    <div class ="js_slider">
-        <img id="slider" src="http://cdn2.topgolf.com/assets/uploads/headers/new-menu-cta-hdr-01.jpg" alt="banner1">
+		<div id="header"> 
+			<div id="header_logo"><img id="header_logo" src="Images/2.jpg" /></div>
+
+					<button id="button_home" class="button_header" onclick="location.href='index.html'" value="Homepage" />Home</button>
+					<button id="button_about" class="button_header" onclick="location.href='about.html'" value="About Us" /> About</button>
+ 						<div class="dropdown">
+							<button id="button_menu" class="dropbtn" onclick="myFunction()" value="Our Menu" /> Menu</button>
+							<div id="myDropdown" class="dropdown-content">
+					    		<a href="#">Entree</a>
+    							<a href="#">Main Course</a>
+    							<a href="#">Desserts</a>
+							</div>	
+						</div>	
+					<button id="button_contact" class="button_header" onclick="location.href='contact.html'" value="Contact Us" /> Contact Us</button>
+			</div>
+
+	<div class="Wrapper">
+		<div class ="js_slider">
+       		 <img id="slider" src="http://cdn2.topgolf.com/assets/uploads/headers/new-menu-cta-hdr-01.jpg" alt="banner1">
         <!--comment: 
         <img id="slider" src="http://www.demosgreekfood.com/images/uploads/menu_banner_img_specials.jpg" alt="banner2"> 
 
@@ -51,5 +67,14 @@
           <button id="button1">See more!</button>
        </p></font>
       </article>
+</div>
+
+
+<div id="footer" class="Footer">
+<p> This is the footer</p>
+</div>
+
+
 </body>
+
 </html>
