@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <head>
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script src="JQuery/menu.js"></script>
@@ -6,6 +8,22 @@
 </head>
 <html>
 <body>
+  <div id="header"> 
+      <div id="header_logo"><div id="header_logo" src="Images/2.jpg" /></div></div>
+      <div id="header_white"> </div>
+          <button id="button_home" class="button_header" onclick="location.href='index.html'" value="Homepage" />Home</button>
+          <button id="button_about" class="button_header" onclick="location.href='about.html'" value="About Us" /> About</button>
+            <div class="dropdown">
+              <button id="button_menu" class="dropbtn" onclick="myFunction()" value="Our Menu" /> Menu</button>
+              <div id="myDropdown" class="dropdown-content">
+                  <a href="menu.html">Entrees</a>
+                  <a href="menu.html">Main Courses</a>
+                  <a href="menu.html">Desserts</a>
+              </div>  
+            </div>  
+          <button id="button_contact" class="button_header" onclick="location.href='contact.html'" value="Contact Us" /> Contact Us</button>
+      </div>
+
   <div id= "wrapper">
    <h1>MENU</h1>
    <div class="images">
