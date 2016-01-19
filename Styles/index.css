@@ -1,19 +1,24 @@
 *{
-	margin: 0 auto;
+  margin: 0 auto  ;
+  font-family: Arial;
 }
+
+
 /* This is the wrapper */
 .Wrapper {
-	height: 100%;
-	width: 100%;
-	float:left;
-	margin-top: 60px;
+  height: 100%;
+  width: 100%;
+  float:left;
+  margin-top: 60px;
 }
 
 /* Header Wrapper Div*/
 #header{
-	width: 100%;
-	height: 60px;
-	position: fixed;
+  width: 101%;
+  height: 60px;
+  position: fixed;
+  z-index: 100;
+  opacity: 0.8;
 }
 
 /* Header logo */
@@ -24,19 +29,27 @@ height: 100%;
 
 /* Header logo - Div */
 div#header_logo{
-	float: left;
-	width: 60%;
-	height: 100%;
-	background-color: blue;
+  float: left;
+  width: 150px  ;
+  height: 100%;
+  background-color: white;
+}
+
+div#header_white{
+  float: left;
+  width: 49%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.4;
 }
 
 .dropdown {
-	float: left;
-	/*margin-left: 0px;*/
-	width: 10%;
-	height: 93%;
-    /*background-color: white;*/
-    border: 2px solid red;
+  float: left;
+  /*margin-left: 0px;*/
+  width: 10%;
+  height: 100%;
+    background-color: white;
+    border: 2px white;
     text-align: center;
     /*display: inline-block;*/
     /*font-size: 16px;*/
@@ -44,7 +57,7 @@ div#header_logo{
 }
 
 #button_menu:hover, #button_menu:focus{
-	color: red;
+  color: grey;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -73,17 +86,17 @@ div#header_logo{
 
 
 .button_header:hover{
-	color: red;
+  color: grey;
 }
 
 /* Homepage - Div */
-#button_home{	
-	float: left;
-	margin-left: -8px;
-	width: 10%;
-	height: 100%;
+#button_home{ 
+  float: left;
+  margin-left: -8px;
+  width: 10%;
+  height: 100%;
     background-color: white;
-    border: 2px solid red;
+    border: 2px white;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -91,12 +104,12 @@ div#header_logo{
 
 /* About us - Div */
 #button_about{
-	margin-left: -2px;
-	float: left;
-	width: 10%;
-	height: 100%;
+  margin-left: -2px;
+  float: left;
+  width: 10%;
+  height: 100%;
     background-color: white;
-    border: 2px solid red;
+    border: 2px white;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -104,11 +117,11 @@ div#header_logo{
 
 /* Menu - Div */
 #button_menu{
-	background: white;
-	float: left;
-	margin-left: -2px;
-	width: 100%;
-	height: 100%;
+  background: white;
+  float: left;
+  margin-left: -2px;
+  width: 100%;
+  height: 100%;
     /*background-color: white;*/
     border: none;
     text-align: center;
@@ -118,23 +131,16 @@ div#header_logo{
 
 /* Contact Us - Div*/
 #button_contact{
-	float: left;
-	margin-left: -2px;
-	width: 10%;
-	height: 100%;
+  float: left;
+  margin-left: -2px;
+  width: 10%;
+  height: 100%;
     background-color: white;
-    border: 2px solid red;
+    border: 2px white;
     text-align: center;
     display: inline-block;
     font-size: 16px;
 }
-
-#footer {
-	height: 120px;
-	width: 100px;
-	outline: 2px red;
-}
-
 
 
 
@@ -148,17 +154,27 @@ div#header_logo{
 #text1 {
   width: 40%;
   height: 40%;
-  margin: 40px auto;
+  margin: 10px auto;
   margin-left: 3em;
-  color: black;
+  color: white;
   float: left;	
 }
 
-#slider {
-  width: 99%;
-  height: 40%;
+
+#bistro {
+  width: 48%;
+  height: 48%;
   margin: 40px auto;
-  margin-left: 0em;
+  float: right;
+}
+
+#text2 {
+  width: 40%;
+  height: 40%;
+  margin: 10px auto;
+  margin-left: 3em;
+  color: white;
+  float: left;	
 }
 
 #button1 {
@@ -167,8 +183,30 @@ div#header_logo{
   border-radius: 0px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 10px;
   background: #3498db;
-  padding: 8px 20px 10px 20px;
+  padding: 4px 10px 5px 10px;
   text-decoration: none;
+}
+
+#pic1 {
+margin-left: 0em auto;
+margin-right: 0em auto;
+}
+
+#pic2 {
+margin-left: 0em;
+margin-right: 0em;
+}
+
+
+
+/*This is the Footer */
+#footer {
+  height: 120px;
+  width: 100%;
+  outline: 2px red;
+  text-align: center;
+  
+
 }
