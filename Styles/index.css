@@ -200,13 +200,19 @@ margin-right: 0em;
 }
 
 
+#clear {
+  clear: both;
+}
 
 /*This is the Footer */
 #footer {
-  height: 120px;
+  height: 50px;
   width: 100%;
   outline: 2px red;
   text-align: center;
-  
+  background-color: white;
+}
 
+button:hover{
+    cursor:pointer;
 }
