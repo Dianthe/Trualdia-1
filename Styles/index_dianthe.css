@@ -1,3 +1,5 @@
+
+
 #shrimp {
   width: 48%;
   height: 48%;
@@ -8,17 +10,27 @@
 #text1 {
   width: 40%;
   height: 40%;
-  margin: 40px auto;
+  margin: 10px auto;
   margin-left: 3em;
-  color: black;
+  color: white;
   float: left;	
 }
 
-#slider {
-  width: 99%;
-  height: 40%;
+
+#bistro {
+  width: 48%;
+  height: 48%;
   margin: 40px auto;
-  margin-left: 0em;
+  float: right;
+}
+
+#text2 {
+  width: 40%;
+  height: 40%;
+  margin: 10px auto;
+  margin-left: 3em;
+  color: white;
+  float: left;	
 }
 
 #button1 {
@@ -27,9 +39,19 @@
   border-radius: 0px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 10px;
   background: #3498db;
-  padding: 8px 20px 10px 20px;
+  padding: 4px 10px 5px 10px;
   text-decoration: none;
+}
+
+#pic1 {
+margin-left: 0em auto;
+margin-right: 0em auto;
+}
+
+#pic2 {
+margin-left: 0em;
+margin-right: 0em;
 }
 
