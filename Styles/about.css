@@ -142,67 +142,37 @@ div#header_white{
     font-size: 16px;
 }
 
+#clear {
+  clear: both;
+}
 
 
-#shrimp {
+#Left{
   width: 48%;
   height: 48%;
-  margin: 40px auto;
+  margin-top: 100px;
+  margin-left: 2%;
+  float: left;
+}
+
+#img_left{
+  width: 100%;
+  height: 100%;
+}
+
+#Right{
+    width: 48%;
+  height: 48%;
+  margin-top: 100px;
+  margin-left: 2%;
   float: left;
 }
 
 #text1 {
-  width: 40%;
-  height: 40%;
-  margin: 10px auto;
   margin-left: 3em;
-  color: white;
-  float: left;	
+  color: white;  
 }
 
-
-#bistro {
-  width: 48%;
-  height: 48%;
-  margin: 40px auto;
-  float: right;
-}
-
-#text2 {
-  width: 40%;
-  height: 40%;
-  margin: 10px auto;
-  margin-left: 3em;
-  color: white;
-  float: left;	
-}
-
-#button1 {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 10px;
-  background: #3498db;
-  padding: 4px 10px 5px 10px;
-  text-decoration: none;
-}
-
-#pic1 {
-margin-left: 0em auto;
-margin-right: 0em auto;
-}
-
-#pic2 {
-margin-left: 0em;
-margin-right: 0em;
-}
-
-
-#clear {
-  clear: both;
-}
 
 /*This is the Footer */
 #footer {
@@ -215,4 +185,5 @@ margin-right: 0em;
 
 button:hover{
     cursor:pointer;
+
 }
