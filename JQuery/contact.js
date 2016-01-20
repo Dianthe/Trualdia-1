@@ -18,12 +18,3 @@ window.onclick = function(event) {
     }
   }
 }
-
-// SlideDown pictures
-$(document).ready(function(){
-$("#shrimp").slideDown("slow");
-});
-// SlideDown pictures
-$(document).ready(function(){
-$("#bistro").slideDown("slow");
-});

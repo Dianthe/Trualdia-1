@@ -4,14 +4,6 @@
 }
 
 
-/* This is the wrapper */
-.Wrapper {
-  height: 100%;
-  width: 100%;
-  float:left;
-  margin-top: 60px;
-}
-
 /* Header Wrapper Div*/
 #header{
   width: 101%;
@@ -40,7 +32,7 @@ div#header_white{
   width: 49%;
   height: 100%;
   background-color: white;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 .dropdown {
@@ -142,9 +134,7 @@ div#header_white{
     font-size: 16px;
 }
 
-#clear {
-  clear: both;
-}
+
 
 
 #Left{
@@ -173,6 +163,9 @@ div#header_white{
   color: white;  
 }
 
+#clear {
+  clear: both;
+}
 
 /*This is the Footer */
 #footer {

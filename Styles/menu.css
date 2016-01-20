@@ -12,7 +12,12 @@ h1{
 	text-align: center;
 }
 
+<<<<<<< HEAD
 #gallery_wrapper{
+=======
+#wrapper{
+	margin: 0 auto;
+>>>>>>> 754728fe60152bedc2041251de69e9ac5fbd6a5f
 	width: 100%;
 }
 
@@ -209,6 +214,10 @@ div#header_white{
     font-size: 16px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 754728fe60152bedc2041251de69e9ac5fbd6a5f
 #clear {
   clear: both;
 }
@@ -220,8 +229,11 @@ div#header_white{
   outline: 2px red;
   text-align: center;
   background-color: white;
+<<<<<<< HEAD
 }
 
 button:hover{
     cursor:pointer;
+=======
+>>>>>>> 754728fe60152bedc2041251de69e9ac5fbd6a5f
 }
