@@ -1,3 +1,8 @@
+p{
+	width: 30px;
+	color:white;
+}
+
 body {
 	background: #222;
 }
@@ -14,7 +19,7 @@ h1{
 
 .images {
 	text-align: center;
-	height:70px;
+
 }
 
 .images img {
