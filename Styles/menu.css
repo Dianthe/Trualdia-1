@@ -1,6 +1,6 @@
-p{
-	width: 30px;
-	color:white;
+*{
+  margin: 0 auto  ;
+  font-family: Arial;
 }
 
 body {
@@ -8,21 +8,20 @@ body {
 }
 
 h1{
-	color:white;
+  color:white;
 	text-align: center;
 }
 
-#wrapper{
-	margin: 0 auto;
-	width:1080px;
+#gallery_wrapper{
+	width: 100%;
 }
 
-.images {
+.gallery {
 	text-align: center;
 
 }
 
-.images img {
+.gallery img {
 	cursor: pointer;
 	height: 150px;
 	width: 200px;
@@ -45,8 +44,8 @@ h1{
 }
 
 .focus.enabled .container {
-	width: 800px;
-	height: 800px;
+	width: 100%;
+	height: 100%;
 }
 
 .focus.enabled img {
@@ -70,11 +69,6 @@ h1{
 }
 
 /* Header starts here */
-
-*{
-  margin: 0 auto  ;
-  font-family: Arial;
-}
 
 
 /* This is the wrapper */
@@ -215,64 +209,19 @@ div#header_white{
     font-size: 16px;
 }
 
-
-
-#shrimp {
-  width: 48%;
-  height: 48%;
-  margin: 40px auto;
-  float: left;
-}
-
-#text1 {
-  width: 40%;
-  height: 40%;
-  margin: 10px auto;
-  margin-left: 3em;
-  color: white;
-  float: left;	
-}
-
-
-#bistro {
-  width: 48%;
-  height: 48%;
-  margin: 40px auto;
-  float: right;
-}
-
-#text2 {
-  width: 40%;
-  height: 40%;
-  margin: 10px auto;
-  margin-left: 3em;
-  color: white;
-  float: left;	
-}
-
-#button1 {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 10px;
-  background: #3498db;
-  padding: 4px 10px 5px 10px;
-  text-decoration: none;
-}
-
-#pic1 {
-margin-left: 0em auto;
-margin-right: 0em auto;
-}
-
-#pic2 {
-margin-left: 0em;
-margin-right: 0em;
-}
-
-
 #clear {
   clear: both;
+}
+
+/*This is the Footer */
+#footer {
+  height: 50px;
+  width: 100%;
+  outline: 2px red;
+  text-align: center;
+  background-color: white;
+}
+
+button:hover{
+    cursor:pointer;
 }
