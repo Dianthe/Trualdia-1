@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="Styles/about.css">
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="JQuery/about.js"></script>
-      </style>
+<head>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="JQuery/contact.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js"> </script>
+  <script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+  <link rel="stylesheet" type="text/css" href="Styles/contact.css">
 </head>
 
 <body style = "background-color:#222;">
+
   <div id="header"> 
       <div id="header_logo"><img id="header_logo" src="Images/2.jpg" /></div>
       <div id="header_white"> </div>
@@ -23,18 +35,80 @@
             </div>  
           <button id="button_contact" class="button_header" onclick="location.href='contact.html'" value="Contact Us" /> Contact Us</button>
       </div>
+</div>  
 
-<form action="action_page.php">
-  First name:<br>
-  <input type="text" name="firstname" value="Mickey"><br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Mouse"><br><br>
-  <input type="submit" value="Submit">
+<!--Start of contact page body-->
+
+   <div id="maps">
+     <div id="googleMap" style="width:500px;height:380px;"></div><br></div>
+     <div id="contact">
+       <h1><font color="white">Drop us a line!</font></h1> 
+
+
+       <form name="htmlform" method="post" action="index.html">
+        <table width="450px">
+        </tr>
+        <tr>
+          <td valign="top">
+            <font color="white">First name</font>
+          </td>
+          <td valign="top">
+            <input  type="text" name="first_name" maxlength="50" size="30">
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">
+            <font color="white">Last name</font>
+          </td>
+          <td valign="top">
+            <input  type="text" name="last_name" maxlength="50" size="30">
+          </td>
+        </tr>
+        <tr>s
+          <td valign="top">
+            <font color="white">E-mail</font>
+          </td>
+          <td valign="top">
+            <input  type="text" name="email" maxlength="80" size="30">
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">
+            <font color="white">Phone</font>
+          </td>
+          <td valign="top">
+            <input  type="text" name="telephone" maxlength="30" size="30">
+          </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <font color="white">What's on your mind?</font>
+        </td>
+        <td valign="top">
+          <textarea  name="comments" maxlength="1000" cols="50" rows="6"></textarea>
+        </td>
+      </tr>
+      <tr>
+       <td colspan="2" style="text-align:center">
+        <input type="submit" value="Submit">   
+      </td>
+    </tr>
+  </table>
 </form>
-
+</div>
+</div>
 <div id="clear"></div>
 <div id="footer" class="Footer">
-  <p> This is the footer</p>
+  <div>
+    <a href="#footer"><img class ="socialmedia" title="Twitter" alt="Twitter" src="Images/twitter.png"/></a>
+    <a href="#footer"><img class ="socialmedia" title="LinkedIn" alt="LinkedIn" src="Images/linkedin.png"/></a>
+    <a href="#footer"><img class ="socialmedia" title="Facebook" alt="Facebook" src="Images/facebook.png"/></a>
+    <a href="#footer"><img class ="socialmedia" title="Pinterest" alt="Pinterest" src="Images/pinterest.png"/></a>
+    <br>&copy; Trualdia Webdesign team 2016-2016
+  </div>
 </div>
 </body>
 </html>
+
+
+
