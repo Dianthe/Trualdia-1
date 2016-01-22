@@ -55,51 +55,56 @@ display:none;
 }
 
 #icon1 {
-  width: 33%;
-  height: 50%;
-  margin: 10em auto;
+  width: 33.33%;
+  margin: 10px auto;
 }
 
 #icon2 {
-  width: 33%;
-  height: 50%;
-  margin: 10em auto;
+  width: 33.33%;
+  margin: 10px auto;
 }
 
 #icon3 {
-  width: 33%;
-  height: 50%;
-  margin: 10em auto;
+  width: 33.33%;
+  margin: 10px auto;
 }
 
 #div_icon-left {
-	height:10%;
 	width:33.33%;
 	float: left;
 }
 
+
 #div_icon-middle {
-	height:10%;
 	width:33.33%;
 	float: left;
 }
 
 #div_icon-right {
-	height:10%;
 	width:33.33%;
 	float: left;
 }
 
-#wrapper {
-	height:29%;
-	width:100%;
+#block1 {
+  width:33.33%;
+  float: left;
+}
+
+#block2 {
+  width:33.33%;
+  float: left;
+}
+
+#block3 {
+  width:33.33%;
+  float: left;
 }
 
 .pushleft {
-	margin-left: 100px;
+	margin-left: 170px;
 	margin-top: -50px;
-	clear:both;
 }
+
 
 
 
