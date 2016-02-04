@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="JQuery/menu.js"></script>
+  <link rel="stylesheet" type="text/css" href="Styles/menu.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+</head>
+<html>
+<body>
+  <div id="header"> 
+    <div id="header_logo"><img id="header_logo" src="Images/2.jpg" /></div>
+    <div id="header_white"> </div>
+    <button id="button_home" class="button_header" onclick="location.href='index.html'" value="Homepage" />Home</button>
+    <button id="button_about" class="button_header" onclick="location.href='about.html'" value="About Us" /> About</button>
+    <div class="dropdown">
+      <button id="button_menu" class="dropbtn" onclick="myFunction()" value="Our Menu" /> Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="menu.html">Entrees</a>
+        <a href="menu.html">Main Courses</a>
+        <a href="menu.html">Desserts</a>
+      </div>  
+    </div>  
+    <button id="button_contact" class="button_header" onclick="location.href='contact.html'" value="Contact Us" /> Contact Us</button>
+  </div>
+
+  <br><br><br><br>
+  <div id= "gallery_wrapper">
+   <h1>MENU</h1>
+   <div class="gallery">
+      <p style="color:white">Entrees</p>
+      <img id="entrees" class="pic" src="Images/picture_1.jpg" />
+      <img class="pic" src="Images/picture_2.jpg" />
+      <img class="pic" src="Images/picture_3.jpg" />
+      <img class="pic" src="Images/picture_4.jpg" />
+      <p style="color:white">Main Course</p>
+      <img id="main_course" class="pic" src="Images/picture_5.jpg" />
+      <img class="pic" src="Images/picture_6.jpg" />
+      <img class="pic" src="Images/picture_7.jpg" />
+      <img class="pic" src="Images/picture_8.jpg" />
+      <p style="color:white">Dessert</p>
+      <img id="dessert" class="pic" src="Images/picture_9.jpg" />
+      <img class="pic" src="Images/picture_10.jpg" />
+      <img class="pic" src="Images/picture_11.jpg" />
+      <img class="pic" src="Images/picture_12.jpg" />
+   
+  </div>
+  <div class="focus">
+    <div class="container">
+    </div>
+  </div>
+</div>
+
+<div id="clear">
+</div>
+<div id="footer" class="Footer">
+  <div>
+    <a href="#footer"><img class ="socialmedia" title="Twitter" alt="Twitter" src="Images/twitter.png"/></a>
+    <a href="#footer"><img class ="socialmedia" title="LinkedIn" alt="LinkedIn" src="Images/linkedin.png"/></a>
+    <a href="#footer"><img class ="socialmedia" title="Facebook" alt="Facebook" src="Images/facebook.png"/></a>
+    <a href="#footer"><img class ="socialmedia" title="Pinterest" alt="Pinterest" src="Images/pinterest.png"/></a>
+    <br>&copy; Trualdia Webdesign team 2016-2016
+  </div>
+</div>
+</body>
+</html>
